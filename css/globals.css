@@ -1,0 +1,29 @@
+.wrapper {
+  max-width: 1200px;
+  margin: 3em;
+}
+
+.hide-mobile {
+  display: none;
+}
+
+.show-desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 950px) {
+  .hide-tablet {
+    display: none;
+  }
+  .hide-mobile {
+    display: block;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .wrapper {
+    margin-inline: auto;
+  }
+  .show-desktop {
+    display: block;
+  }
+}/*# sourceMappingURL=globals.css.map */
